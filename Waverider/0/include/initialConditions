@@ -1,0 +1,34 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1706                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+Ttr       84.9;
+TveAtom   84.9;
+Tve       84.9;
+Twall     84.9;
+
+pressure  6647;
+rhoInlet 0.272744;
+
+xVelocityInlet 646.31;
+velocityInlet  ($xVelocityInlet 0 0);
+velocityField  (646.31 0 0);
+velocityWall   (0 0 0);
+
+Y_N2      0.765;
+Y_O2      0.235;
+Y_NO      0;
+Y_N       0;
+Y_O       0;
+Y_N2+     0;
+Y_O2+     0;
+Y_NO+     0;
+Y_N+      0;
+Y_O+      0;
+Y_e-      0;
+  
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
